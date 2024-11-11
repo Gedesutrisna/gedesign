@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\admin\BlogController;
+use App\Http\Controllers\admin\LoginController;
+use App\Http\Controllers\admin\DashboardController;
+use App\Http\Controllers\admin\PortfolioController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +18,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::group(['prefix' => 'dashboard/admin', 'middleware' => ['auth:admin']], function () {
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard.index');
+
+    Route::resource('/blogs', BlogController::class);
+    Route::resource('/portfolios', PortfolioController::class);
 });
+
+//admin
+Route::get('/login/admin', [LoginController::class,'index'])->middleware('guest')->name('login.admin');
+Route::post('/login/admin', [LoginController::class,'login'])->middleware('guest');
+Route::post('/logout/admin', [LoginController::class, 'logout']);

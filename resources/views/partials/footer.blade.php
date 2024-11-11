@@ -5,7 +5,9 @@
             <!-- Logo and Description -->
             <div class="col-4 col-sm-12" data-aos="fade-right" data-aos-delay="200">
                 <div class="d-flex align-center gap mb">
-                    <img src="assets/logo.png" alt="" class="logo rounded">
+                    <a href="/">
+                        <img src="assets/logo.png" alt="" class="logo rounded">
+                    </a>
                     <p class="logo white mb-0">Gedesign.</p>
                 </div>
                 <div class="mb">
@@ -40,10 +42,10 @@
                 <div class="grid grid-3 mb">
                     <div class="f-box" data-aos="fade-up" data-aos-delay="400">
                         <h1 class="title small white">Quick Link</h1>
-                        <p class="text white">Home</p>
-                        <p class="text white">About us</p>
-                        <p class="text white">Service</p>
-                        <p class="text white">Portfolio</p>
+                        <a href="/" class="text white">Home</a>
+                        <a href="/#aboutus" class="text white">About us</a>
+                        <a href="/#service" class="text white">Service</a>
+                        <a href="/#portfolio" class="text white">Portfolio</a>
                     </div>
                     <div class="f-box" data-aos="fade-up" data-aos-delay="500">
                         <h1 class="title small white">Our Services</h1>

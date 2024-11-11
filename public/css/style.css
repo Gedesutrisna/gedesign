@@ -97,10 +97,16 @@ p.text {
     line-height: 24px;
 }
 
+a.text.white,
 p.text.white {
     font-size: var(--font-size-p-small);
     color: var(--text-white-color);
     margin-bottom: .5rem;
+}
+
+.f-box {
+    display: flex;
+    flex-direction: column;
 }
 
 .highlight-gedesign {
@@ -595,7 +601,7 @@ footer .container {
 /* Faq */
 .faq-container {
     width: 100%;
-    min-height: 320px;
+    min-height: 350px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -611,7 +617,7 @@ footer .container {
 }
 
 .faq.active .faq-answer {
-    max-height: 100px; /* Atur lebih tinggi jika diperlukan */
+    max-height: 90px; /* Atur lebih tinggi jika diperlukan */
     padding-top: .5rem; /* Tambahkan padding untuk spasi */
 }
 
