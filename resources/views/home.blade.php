@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-5 d-sm-none" data-aos="fade-left" >
                     <div class="mb-md-2 moving-up-down">
-                        <img src="assets/hero-image.png" alt="">
+                        <img src="/assets/hero-image.png" alt="">
                     </div>
                 </div>                
             </div>
@@ -35,7 +35,7 @@
             <div class="row gap-large gap-sm-n">
                 <div class="col-5 col-sm-12" data-aos="fade-right">
                     <div class="mb">
-                        <img src="assets/about-image.png" alt="">
+                        <img src="/assets/about-image.png" alt="">
                     </div>
                 </div>
                 <div class="col-7 col-sm-12" data-aos="fade-left">
@@ -93,7 +93,7 @@
                                 <div class="d-flex d-sm-block align-center gap mb mb-sm">
                                     <div class="mb-sm">
                                         <div class="icon">
-                                            <img src="assets/checklist.png" alt="check">
+                                            <img src="/assets/checklist.png" alt="check">
                                         </div>
                                     </div>
                                     <h1 class="card-title">{{ $service->name }}</h1>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-5 col-sm-12" data-aos="fade-left">
                     <div class="mb-sm-2">
-                        <img src="assets/service-image.png" alt="service-image">
+                        <img src="/assets/service-image.png" alt="service-image">
                     </div>
                 </div>
             </div>
@@ -196,7 +196,7 @@
                                     <div class="card">
                                         <div class="mb-sm mb">
                                             <div class="icon">
-                                                <img src="assets/dots.png" alt="check">
+                                                <img src="/assets/dots.png" alt="check">
                                             </div>
                                         </div>
                                         <p class="card-text mb">
@@ -241,7 +241,7 @@
                 </div>
                 <div class="col-5 col-sm-12" data-aos="fade-left">
                     <div class="mb mt">
-                        <img src="assets/faq-image.png" alt="">
+                        <img src="/assets/faq-image.png" alt="">
                     </div>
                 </div>
             </div>

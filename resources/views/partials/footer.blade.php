@@ -6,7 +6,7 @@
             <div class="col-4 col-sm-12" data-aos="fade-right" data-aos-delay="200">
                 <div class="d-flex align-center gap mb">
                     <a href="/">
-                        <img src="assets/logo.png" alt="" class="logo rounded">
+                        <img src="/assets/logo.png" alt="" class="logo rounded">
                     </a>
                     <p class="logo white mb-0">Gedesign.</p>
                 </div>
@@ -16,22 +16,22 @@
                 <div class="d-flex gap mb-sm-2">
                     <a href="https://wa.me/62881037418040?text=Hello%20Gedesign!%20I'm%20interested%20in%20learning%20more%20about%20your%20website%20services.%20Can%20we%20discuss%20the%20details%20further?" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon white">
-                            <img src="assets/whatsapp.png" alt="">
+                            <img src="/assets/whatsapp.png" alt="">
                         </div>
                     </a>
                     <a href="https://www.instagram.com/gedesi9n" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon white">
-                            <img src="assets/instagram.png" alt="">
+                            <img src="/assets/instagram.png" alt="">
                         </div>
                     </a>
                     <a href="#" data-aos="fade-up" data-aos-delay="500">
                         <div class="icon white">
-                            <img src="assets/facebook.png" alt="">
+                            <img src="/assets/facebook.png" alt="">
                         </div>
                     </a>
                     <a href="#" data-aos="fade-up" data-aos-delay="600">
                         <div class="icon white">
-                            <img src="assets/tiktok.png" alt="">
+                            <img src="/assets/tiktok.png" alt="">
                         </div>
                     </a>
                 </div>

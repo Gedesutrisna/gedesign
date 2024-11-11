@@ -54,39 +54,13 @@
     </div>
 </div>
 <div class="row mt-4">
-    <div class="col-lg-7">
+    <div class="col-lg-12">
         <div class="box h-100">
             <div class="">
                 <h3>Statistik Chart</h3>
             </div>
             <div class="mt-4">
                 <canvas id="myChart"></canvas>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-5 mt-lg-0 mt-4">
-        <div class="box h-100">
-            <div class="">
-                <h3>Notifikasi</h3>
-            </div>
-            <div class="d-flex flex-column gap-2 mt-4">
-                <div class="inbox d-flex justify-content-between align-items-end">
-                    <div class="d-flex align-items-center gap-3">
-                        <div class="">
-                            <img src="/assets-dashboard/profile-man.svg" alt="">
-                        </div>
-                        <div class="">
-                            <h5></h5>
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center gap-2 flex-nowrap">
-                        <div class="">
-                            <img src="/assets-dashboard/time-i.svg" alt="">
-                        </div>
-                        <p class="text-nowrap"></p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

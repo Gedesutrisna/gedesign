@@ -1,6 +1,6 @@
 <nav class="sidebar position-fixed d-flex flex-column">
     @php
-        $dashboardUrl = auth()->guard('admin')->check() ? '/dashboard' : '/dashboard/psychologist';
+        $dashboardUrl = '/dashboard/admin';
     @endphp
     <a class="text-center" href="{{ $dashboardUrl }}">
         <img src="/assets-dashboard/icon.svg" alt="" class="logo">
@@ -15,29 +15,15 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ request()->is(ltrim($dashboardUrl, '/') . '/questions*') ? 'active' : '' }}" href="{{ $dashboardUrl }}/questions">
-                    <img class="nav-icon" src="/assets-dashboard/{{ request()->is(ltrim($dashboardUrl, '/') . '/questions*') ? 'question-i-w.svg' : 'question-i.svg' }}" alt="">
-                    <p>Question</p>
+                <a class="nav-link {{ request()->is(ltrim($dashboardUrl, '/') . '/portfolios*') ? 'active' : '' }}" href="{{ $dashboardUrl }}/portfolios">
+                    <img class="nav-icon" src="/assets-dashboard/{{ request()->is(ltrim($dashboardUrl, '/') . '/portfolios*') ? 'question-i-w.svg' : 'question-i.svg' }}" alt="">
+                    <p>Portfolio</p>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ request()->is(ltrim($dashboardUrl, '/') . '/histories*') ? 'active' : '' }}" href="{{ $dashboardUrl }}/histories">
-                    <img class="nav-icon" src="/assets-dashboard/{{ request()->is(ltrim($dashboardUrl, '/') . '/histories*') ? 'history-i-w.svg' : 'history-i.svg' }}" alt="">
-                    <p>History</p>
-                </a>
-            </li>
-            @if (auth()->guard('admin')->check())
-            <li class="nav-item">
-                <a class="nav-link {{ request()->is('dashboard/psychologists*') ? 'active' : '' }}" href="/dashboard/psychologists">
-                    <img class="nav-icon" src="/assets-dashboard/{{ request()->is('dashboard/psychologists*') ? 'patient-i-w.svg' : 'patient-i.svg' }}" alt="">
-                    <p>Psikologi</p>
-                </a>
-            </li>
-            @endif
-            <li class="nav-item">
-                <a class="nav-link {{ request()->is(ltrim($dashboardUrl, '/') . '/users*') ? 'active' : '' }}" href="{{ $dashboardUrl }}/users">
-                    <img class="nav-icon" src="/assets-dashboard/{{ request()->is(ltrim($dashboardUrl, '/') . '/users*') ? 'patient-i-w.svg' : 'patient-i.svg' }}" alt="">
-                    <p>Users</p>
+                <a class="nav-link {{ request()->is(ltrim($dashboardUrl, '/') . '/blogs*') ? 'active' : '' }}" href="{{ $dashboardUrl }}/blogs">
+                    <img class="nav-icon" src="/assets-dashboard/{{ request()->is(ltrim($dashboardUrl, '/') . '/blogs*') ? 'history-i-w.svg' : 'history-i.svg' }}" alt="">
+                    <p>Blog</p>
                 </a>
             </li>
         </div>

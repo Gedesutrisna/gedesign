@@ -10,7 +10,7 @@
             <div class="row gap-large gap-sm-n">
                 <div class="col-5 col-md-5 d-sm-none">
                     <div class="">
-                        <img src="assets/login-image.png" alt="">
+                        <img src="/assets/login-image.png" alt="">
                     </div>
                 </div>
                 <div class="col-7 col-md-9 col-sm-12">
