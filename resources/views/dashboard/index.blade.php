@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="row mt-4">
-                <div class="col-lg-4 col-4">
+                <div class="col-lg-3 col-6 mb-lg-0 mb-3">
                     <div class="group border-end d-flex align-items-center gap-3">
                         <div class="">
                             <div class="icon">
@@ -23,7 +23,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-4">
+                <div class="col-lg-3 col-6 mb-lg-0 mb-3">
                     <div class="group border-end d-flex align-items-center gap-3">
                         <div class="">
                             <div class="icon">
@@ -36,8 +36,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-4">
-                    <div class="group d-flex align-items-center gap-3">
+                <div class="col-lg-3 col-6">
+                    <div class="group border-end d-flex align-items-center gap-3">
                         <div class="">
                             <div class="icon">
                                 <img src="/assets-dashboard/exist-i.svg" alt="">
@@ -46,6 +46,19 @@
                         <div class="">
                             <h5 class="average">{{ $blogs->count() }}</h5>
                             <p class="">Total Blog</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="group border-end d-flex align-items-center gap-3">
+                        <div class="">
+                            <div class="icon">
+                                <img src="/assets-dashboard/exist-i.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <h5 class="average">{{ $tags->count() }}</h5>
+                            <p class="">Total Tag</p>
                         </div>
                     </div>
                 </div>

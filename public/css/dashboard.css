@@ -350,10 +350,11 @@ canvas.chart{
     font-size: 10px;
 }
 .logo {
-    color: var(--black-color);
+    /* color: var(--black-color);
     font-weight: 700;
     font-size: 24px;
-    text-decoration: none;
+    text-decoration: none; */
+    width: 100px;
 }
 @media (min-width: 1400px){
     nav.sidebar{

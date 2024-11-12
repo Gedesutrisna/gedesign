@@ -38,7 +38,7 @@
                     <!-- Sidebar -->
                     @include('dashboard.partials.sidebar')
                 </div>
-                <div class="col-lg-10 col-md-11 col-sm-11 col-12 ps-2 pe-0">
+                <div class="col-lg-10 col-md-11 col-sm-11 col-12 ps-lg-2 ps-0 pe-0">
                     <!-- Navbar -->
                     @include('dashboard.partials.navbar')
                     <!-- Content -->
@@ -76,7 +76,7 @@
         .dataTables_wrapper .dataTables_paginate .paginate_button.current,
         .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
             color: #fff !important;
-            background: #2243B6 !important;
+            background: #6366F1 !important;
             border: 1px solid transparent;
             box-shadow: 0 1px 3px rgba(0, 0, 0, .1), 0 1px 2px rgba(0, 0, 0, .06);
         }
@@ -86,7 +86,7 @@
         }
         table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before,
         table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
-            background-color: #2243B6 !important;
+            background-color: #6366F1 !important;
         }
     </style>
 

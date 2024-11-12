@@ -2,8 +2,8 @@
     @php
         $dashboardUrl = '/dashboard/admin';
     @endphp
-    <a class="text-center logo" href="{{ $dashboardUrl }}">
-        Gedesign.
+    <a class="text-center" href="{{ $dashboardUrl }}">
+        <img src="/assets/logo-2.png" alt="" class="logo">
     </a>
     <hr class="my-4">
     <ul class="nav flex-column gap-3 justify-content-between h-100">
