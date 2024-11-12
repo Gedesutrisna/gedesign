@@ -77,7 +77,7 @@ h1.title {
 h1.title.white {
     color: var(--white-color) !important;
 }
-h1.title-custom {
+h2.title-custom {
     color: var(--black-color);
     font-size: var(--font-size-h2);
     font-weight: 700;
@@ -514,13 +514,13 @@ section.login .container{
 }
 
 section.hero .hero-left {
-    background: center no-repeat url('../assets/vector.png') var(--white-color);
+    background: center no-repeat url('../assets/vector.webp') var(--white-color);
     background-size: cover;
 }
 
 section.banner .container-b {
     /* background: var(--primary-color); */
-    background: center no-repeat url("../assets/vector2.png");
+    background: center no-repeat url("../assets/vector2.webp");
     background-size: cover; /* Ensures the image covers the container fully */
     padding: 80px 120px;
     border-radius: var(--border-radius-medium);
