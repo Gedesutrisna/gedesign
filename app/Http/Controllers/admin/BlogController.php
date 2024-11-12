@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\admin;
 
+use App\Models\Tag;
 use App\Models\Blog;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreBlogRequest;
@@ -22,11 +23,13 @@ class BlogController extends Controller
     }
     public function create()
     {
-        return view('dashboard.admin.blog.create');
+        $tags = Tag::all();
+        return view('dashboard.admin.blog.create',compact('tags'));
     }
     public function edit(Blog $blog)
     {
-        return view('dashboard.admin.blog.edit',[
+        $tags = Tag::all();
+        return view('dashboard.admin.blog.edit',compact('tags'),[
             'blog' => $blog,
         ]);
     }

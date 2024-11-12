@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\admin;
 
+use App\Models\Tag;
 use App\Models\Portfolio;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StorePortfolioRequest;
@@ -22,14 +23,17 @@ class PortfolioController extends Controller
     }
     public function create()
     {
-        return view('dashboard.admin.portfolio.create');
+        $tags = Tag::all();
+        return view('dashboard.admin.portfolio.create',compact('tags'));
     }
     public function edit(Portfolio $portfolio)
     {
-        return view('dashboard.admin.portfolio.edit',[
+        $tags = Tag::all();
+        return view('dashboard.admin.portfolio.edit',compact('tags'),[
             'portfolio' => $portfolio,
         ]);
     }
+
     public function store(StorePortfolioRequest $request)
     {
         $validatedData = $request->validated();

@@ -1,11 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\admin\FaqController;
+use App\Http\Controllers\admin\TagController;
 use App\Http\Controllers\admin\BlogController;
+use App\Http\Controllers\admin\AdminController;
 use App\Http\Controllers\admin\LoginController;
+use App\Http\Controllers\admin\ServiceController;
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\PortfolioController;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\admin\TestimonialController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +30,13 @@ Route::group(['prefix' => 'dashboard/admin', 'middleware' => ['auth:admin']], fu
 
     Route::resource('/blogs', BlogController::class);
     Route::resource('/portfolios', PortfolioController::class);
+    Route::resource('/services', ServiceController::class);
+    Route::resource('/tags', TagController::class);
+    Route::resource('/faqs', FaqController::class);
+    Route::resource('/testimonials', TestimonialController::class);
+
+    Route::get('/profile', [AdminController::class, 'index'])->name('profile.admin.index');
+    Route::put('/profile/update', [AdminController::class, 'update'])->name('profile.admin.update');
 });
 
 //admin

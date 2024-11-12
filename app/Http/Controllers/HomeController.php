@@ -13,14 +13,14 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $blogs = Blog::latest()->get();
+        $blogs = Blog::latest()->take(3)->get();
         $portfolioMain = Portfolio::latest()->first(); 
-        $portfolios = Portfolio::where('id', '!=', $portfolioMain->id)->latest()->get(); 
-        $services = Service::latest()->get();
-        $faqs = faq::latest()->get();
-        $testimonials = Testimonial::latest()->get();
+        $portfolios = Portfolio::where('id', '!=', $portfolioMain->id)->latest()->take(3)->get(); 
+        $services = Service::latest()->take(4)->get();
+        $faqs = Faq::latest()->take(4)->get();
+        $testimonials = Testimonial::latest()->take(6)->get();
     
-        return view('home', compact('blogs', 'portfolios', 'portfolioMain','services','faqs','testimonials'));
-    }    
+        return view('home', compact('blogs', 'portfolios', 'portfolioMain', 'services', 'faqs', 'testimonials'));
+    }        
 
 }
