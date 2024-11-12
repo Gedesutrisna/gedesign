@@ -1,6 +1,6 @@
 @extends('dashboard.layouts.main')
 @section('container')
-<div class="row" style="height: 80vh">
+<div class="row" style="height: 100vh">
     <div class="col-12">
         <a href="/dashboard/admin/tags" class="navbar-btn"><i class="bi bi-arrow-left"></i></a>
         <div class="box mt-4">
