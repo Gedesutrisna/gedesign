@@ -94,16 +94,20 @@ section.auth h1{
 section.auth p{
     color: rgba(33, 34, 37, 0.52);
 }
-input, select{
+input, select, textarea{
     /* color: rgba(33, 34, 37, 0.36); */
-    background: var(--white-color); 
+    background: var(--white-color) !important; 
     /* background: #F5F5F5;  */
     border-radius: 4px; 
     border: 1px rgba(39, 40, 43, 0.12) solid; 
+    resize: none !important;
 }
-select.input, input.input{
+select.input, input.input, textarea{
     padding: 16px 22px 16px 40px; 
     width: 100%;
+}
+textarea {
+    height: 200px;
 }
 input.pauli{
     width: 30px;
@@ -111,6 +115,7 @@ input.pauli{
     top: -15px;
     right: 0px;
 }
+textarea:focus,
 input:focus{
     outline: none;
 }
@@ -196,7 +201,7 @@ button.save-btn{
     background: var(--main-color);
     color: var(--white-color); 
 }
-button.cancle-btn{
+button.cancel-btn{
     border-radius: 4px;
     padding: 16px; 
     background: #F5F5F5; 
@@ -344,7 +349,12 @@ canvas.chart{
     color: #a6a6a6;
     font-size: 10px;
 }
-
+.logo {
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+}
 @media (min-width: 1400px){
     nav.sidebar{
         padding: 3rem 2.25rem;

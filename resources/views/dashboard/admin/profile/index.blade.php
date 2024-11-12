@@ -69,7 +69,7 @@
                         <button type="submit" class="save-btn">Edit Profile</button>
                     </div>
                     <div class="">
-                        <button type="button" class="cancle-btn">Batal</button>
+                        <button type="button" class="cancel-btn">Batal</button>
                     </div>
                 </div>
             </form>
