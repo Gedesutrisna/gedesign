@@ -13,10 +13,10 @@
                             Start your journey towards becoming a professional developer. Enhance your skills, expand your knowledge, and unlock new opportunities in the ever-evolving tech industry.
                         </p>
                         <div class="d-flex gap">
-                            <a href="/#portfolio" data-aos="fade-up" data-aos-delay="700">
+                            <a href="#portfolio" data-aos="fade-up" data-aos-delay="700">
                                 <button class="btn btn-a">Build Now</button>
                             </a>
-                            <a href="/#aboutus" data-aos="fade-up" data-aos-delay="800">
+                            <a href="#aboutus" data-aos="fade-up" data-aos-delay="800">
                                 <button class="btn btn-b">Explore Gedesign</button>
                             </a>
                         </div>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-5 d-sm-none" data-aos="fade-left" >
                     <div class="mb-md-2 moving-up-down">
-                        <img src="/assets/hero-image.png" alt="">
+                        <img src="/assets/hero-image.webp" alt="hero-image">
                     </div>
                 </div>                
             </div>
@@ -35,7 +35,7 @@
             <div class="row gap-large gap-sm-n">
                 <div class="col-5 col-sm-12" data-aos="fade-right">
                     <div class="mb">
-                        <img src="/assets/about-image.png" alt="">
+                        <img src="/assets/about-image.webp" alt="about-image">
                     </div>
                 </div>
                 <div class="col-7 col-sm-12" data-aos="fade-left">
@@ -55,19 +55,19 @@
                         <div class="h-line" data-aos="fade-up" data-aos-delay="800"></div>
                         <div class="grid grid-4 grid-sm-2 w-full" data-aos="fade-up" data-aos-delay="800">
                             <div class="text-center">
-                                <h1 class="title-custom mb-0 counter" data-target="27">0</h1>
+                                <h2 class="title-custom mb-0 counter" data-target="27">0</h2>
                                 <p class="text">Projects Completed</p>
                             </div>
                             <div class="text-center">
-                                <h1 class="title-custom mb-0 counter" data-target="14">0</h1>
+                                <h2 class="title-custom mb-0 counter" data-target="14">0</h2>
                                 <p class="text">Team Members</p>
                             </div>
                             <div class="text-center">
-                                <h1 class="title-custom mb-0 counter" data-target="50">0</h1>
+                                <h2 class="title-custom mb-0 counter" data-target="50">0</h2>
                                 <p class="text">Websites Delivered</p>
                             </div>
                             <div class="text-center">
-                                <h1 class="title-custom mb-0 counter" data-target="10">0</h1>
+                                <h2 class="title-custom mb-0 counter" data-target="10">0</h2>
                                 <p class="text">Happy Clients</p>
                             </div>
                         </div>
@@ -93,10 +93,10 @@
                                 <div class="d-flex d-sm-block align-center gap mb mb-sm">
                                     <div class="mb-sm">
                                         <div class="icon">
-                                            <img src="/assets/checklist.png" alt="check">
+                                            <img src="/assets/checklist.webp" alt="check">
                                         </div>
                                     </div>
-                                    <h1 class="card-title">{{ $service->name }}</h1>
+                                    <h4 class="card-title">{{ $service->name }}</h4>
                                 </div>
                                 <p class="card-text">{{ $service->description }}</p>
                             </div>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-5 col-sm-12" data-aos="fade-left">
                     <div class="mb-sm-2">
-                        <img src="/assets/service-image.png" alt="service-image">
+                        <img src="/assets/service-image.webp" alt="service-image">
                     </div>
                 </div>
             </div>
@@ -131,13 +131,13 @@
                     <div class="">
                         <div class="card">
                             <div class="">
-                                <img src="{{ asset('images/'.$portfolioMain->image) }}" alt="" class="card-img-main mb">
+                                <img src="{{ asset('images/'.$portfolioMain->image) }}" alt="portfolios-image" class="card-img-main mb">
                                 <div class="card-body">
                                     <div class="d-flex between align-center mb">
                                         <div class="tag">{{ $portfolioMain->tag->name }}</div>
                                         <p class="card-text mb-0">Published on {{ $portfolioMain->created_at->format('d M Y') }}</p>
                                     </div>
-                                    <h1 class="card-title-large mb-2">{{ $portfolioMain->title }}</h1>
+                                    <h4 class="card-title-large mb-2">{{ $portfolioMain->title }}</h4>
                                     <p class="card-text text-clip mb">{{ $portfolioMain->description }}</p>
                                     <a href="#" class="">
                                         <button class="btn btn-b w-full">See more</button>    
@@ -157,10 +157,10 @@
                                         <div class="tag tag-small">{{ $portfolio->tag->name }}</div>
                                         <p class="card-text mb-0">{{ $portfolio->created_at->format('d M Y') }}</p>
                                     </div>
-                                    <h1 class="card-title-medium mb-2">{{ $portfolio->title }}</h1>
+                                    <h5 class="card-title-medium mb-2">{{ $portfolio->title }}</h5>
                                     <p class="card-text text-clip">{{ $portfolio->description }}</p>
                                 </div>
-                                <img src="{{ asset('images/'.$portfolio->image) }}" alt="" class="card-img d-sm-none">
+                                <img src="{{ asset('images/'.$portfolio->image) }}" alt="portfolios-image" class="card-img d-sm-none">
                             </div>
                         </div>
                         @endforeach
@@ -196,13 +196,13 @@
                                     <div class="card">
                                         <div class="mb-sm mb">
                                             <div class="icon">
-                                                <img src="/assets/dots.png" alt="check">
+                                                <img src="/assets/dots.webp" alt="check">
                                             </div>
                                         </div>
                                         <p class="card-text mb">
                                             "{{ $testimonial->feedback }}"
                                         </p>
-                                        <h1 class="card-title">{{ $testimonial->name }}</h1>
+                                        <h4 class="card-title">{{ $testimonial->name }}</h4>
                                         <p class="card-text">{{ $testimonial->job }}</p>
                                     </div>
                                 </div>
@@ -230,7 +230,7 @@
                             @foreach ($faqs as $index => $faq)
                                 <div class="card faq {{ $index === 1 ? 'active' : '' }}" data-aos="fade-up" data-aos-delay="600">
                                     <div class="d-flex between">
-                                        <h1 class="card-title faq-question">{{ $faq->question }}</h1>
+                                        <h4 class="card-title faq-question">{{ $faq->question }}</h4>
                                         <i class='bx bx-chevron-down'></i>
                                     </div>
                                     <p class="card-text faq-answer">{{ $faq->answer }}</p>
@@ -241,7 +241,7 @@
                 </div>
                 <div class="col-5 col-sm-12" data-aos="fade-left">
                     <div class="mb mt">
-                        <img src="/assets/faq-image.png" alt="">
+                        <img src="/assets/faq-image.webp" alt="faq-image">
                     </div>
                 </div>
             </div>
@@ -285,13 +285,13 @@
                     <div class="grid grid-3 w-full">
                         @foreach ($blogs as $blog)
                         <div class="card" data-aos="fade-up" data-aos-delay="500">
-                            <img src="{{ asset('images/'.$blog->image) }}" alt="" class="card-img-blog mb">
+                            <img src="{{ asset('images/'.$blog->image) }}" alt="image-blog" class="card-img-blog mb">
                             <div class="card-body">
                                 <div class="d-flex between align-center mb">
                                     <div class="tag tag-small">{{ $blog->tag->name }}</div>
                                     <p class="card-text mb-0">{{ $blog->created_at->format('d M Y') }}</p>
                                 </div>
-                                <h1 class="card-title-large mb-2">{{ $blog->title }}</h1>
+                                <h3 class="card-title-large mb-2">{{ $blog->title }}</h3>
                                 <p class="card-text">{{ $blog->description }}</p>
                             </div>
                         </div>
@@ -306,13 +306,13 @@
                                 @foreach ($blogs as $blog)
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
                                     <div class="card" data-aos="fade-up" data-aos-delay="500">
-                                        <img src="{{ asset('images/'.$blog->image) }}" alt="" class="card-img-blog mb">
+                                        <img src="{{ asset('images/'.$blog->image) }}" alt="image-blog" class="card-img-blog mb">
                                         <div class="card-body">
                                             <div class="d-flex between align-center mb">
                                                 <div class="tag tag-small">Web Design</div>
                                                 <p class="card-text mb-0">13 May 2024</p>
                                             </div>
-                                            <h1 class="card-title-large mb-2">{{ $blog->title }}</h1>
+                                            <h3 class="card-title-large mb-2">{{ $blog->title }}</h3>
                                             <p class="card-text">{{ $blog->description }}</p>
                                         </div>
                                     </div>
