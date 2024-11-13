@@ -130,20 +130,22 @@
                 <div class="col-6 col-sm-12" data-aos="fade-right" data-aos-delay="400">
                     <div class="">
                         <div class="card">
-                            <div class="">
-                                <img src="{{ asset('images/'.$portfolioMain->image) }}" alt="portfolios-image" class="card-img-main mb">
-                                <div class="card-body">
-                                    <div class="d-flex between align-center mb">
-                                        <div class="tag">{{ $portfolioMain->tag->name }}</div>
-                                        <p class="card-text mb-0">Published on {{ $portfolioMain->created_at->format('d M Y') }}</p>
+                            <a href="{{ $portfolioMain->url }}">
+                                <div class="">
+                                    <img src="{{ asset('images/'.$portfolioMain->image) }}" alt="portfolios-image" class="card-img-main mb">
+                                    <div class="card-body">
+                                        <div class="d-flex between align-center mb">
+                                            <div class="tag">{{ $portfolioMain->tag->name }}</div>
+                                            <p class="card-text mb-0">Published on {{ $portfolioMain->created_at->format('d M Y') }}</p>
+                                        </div>
+                                        <h3 class="card-title-large mb-2">{{ $portfolioMain->title }}</h3>
+                                        <p class="card-text text-clip mb">{{ $portfolioMain->description }}</p>
+                                        <a href="#" class="">
+                                            <button class="btn btn-b w-full">See more</button>    
+                                        </a>
                                     </div>
-                                    <h4 class="card-title-large mb-2">{{ $portfolioMain->title }}</h4>
-                                    <p class="card-text text-clip mb">{{ $portfolioMain->description }}</p>
-                                    <a href="#" class="">
-                                        <button class="btn btn-b w-full">See more</button>    
-                                    </a>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -151,17 +153,19 @@
                     <div class="d-flex flex-col gap-medium gap-md-small gap-sm-small">
                         @foreach ($portfolios as $portfolio)
                         <div class="card" data-aos="fade-up" data-aos-delay="400">
-                            <div class="d-flex gap-medium">
-                                <div class="card-body">
-                                    <div class="d-flex between align-center mb-3 mb-sm-2">
-                                        <div class="tag tag-small">{{ $portfolio->tag->name }}</div>
-                                        <p class="card-text mb-0">{{ $portfolio->created_at->format('d M Y') }}</p>
+                            <a href="{{ $portfolio->url }}">
+                                <div class="d-flex gap-medium">
+                                    <div class="card-body">
+                                        <div class="d-flex between align-center mb-3 mb-sm-2">
+                                            <div class="tag tag-small">{{ $portfolio->tag->name }}</div>
+                                            <p class="card-text mb-0">{{ $portfolio->created_at->format('d M Y') }}</p>
+                                        </div>
+                                        <h5 class="card-title-medium mb-2">{{ $portfolio->title }}</h5>
+                                        <p class="card-text text-clip">{{ $portfolio->description }}</p>
                                     </div>
-                                    <h5 class="card-title-medium mb-2">{{ $portfolio->title }}</h5>
-                                    <p class="card-text text-clip">{{ $portfolio->description }}</p>
+                                    <img src="{{ asset('images/'.$portfolio->image) }}" alt="portfolios-image" class="card-img d-sm-none">
                                 </div>
-                                <img src="{{ asset('images/'.$portfolio->image) }}" alt="portfolios-image" class="card-img d-sm-none">
-                            </div>
+                            </a>
                         </div>
                         @endforeach
                     </div>

@@ -49,10 +49,10 @@
                     </div>
                     <div class="f-box" data-aos="fade-up" data-aos-delay="500">
                         <h1 class="title small white">Our Services</h1>
-                        <p class="text white">Website Development</p>
-                        <p class="text white">Application Development</p>
-                        <p class="text white">UI/UX Design</p>
-                        <p class="text white">Coding and UI/UX Design Lessons</p>
+                        <a href="#service" class="text white">Website Development</a>
+                        <a href="#service" class="text white">Application Development</a>
+                        <a href="#service" class="text white">UI/UX Design</a>
+                        <a href="#service" class="text white">Coding and UI/UX Design Lessons</a>
                     </div>
                     <div class="f-box" data-aos="fade-up" data-aos-delay="600">
                         <h1 class="title small white">Why Choose Us</h1>

@@ -322,6 +322,8 @@ nav.scroll .hamburger .bar {
     border: 1px solid var(--border-color-primary);
     white-space: nowrap; 
     text-overflow: ellipsis;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+
 }
 
 .tag.tag-small {
@@ -543,9 +545,15 @@ footer .container {
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
+.card.active,
 .card:hover {
-    background-color: var(--light-primary-color); /* Optional light primary background */
-    border: 1px solid var(--primary-color); /* Changes border color */
+    border: 1px solid var(--primary-color); 
+}
+
+.card:hover .tag{
+    background-color: var(--primary-color); 
+    color: var(--white-color);
+    border: 1px solid var(--primary-color); 
 }
 
 .card-img-main {
