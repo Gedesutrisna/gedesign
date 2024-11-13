@@ -140,9 +140,9 @@
                                         </div>
                                         <h3 class="card-title-large mb-2">{{ $portfolioMain->title }}</h3>
                                         <p class="card-text text-clip mb">{{ $portfolioMain->description }}</p>
-                                        <a href="#" class="">
-                                            <button class="btn btn-b w-full">See more</button>    
-                                        </a>
+                                        <a href="#">
+                                        	<button class="btn btn-b w-full">See more</button>    
+                                      	</a>
                                     </div>
                                 </div>
                             </a>
