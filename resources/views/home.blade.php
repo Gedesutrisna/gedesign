@@ -286,17 +286,19 @@
                 <div class="col-12 d-md-none d-sm-none">
                     <div class="grid grid-3 w-full">
                         @foreach ($blogs as $blog)
-                        <div class="card" data-aos="fade-up" data-aos-delay="500">
-                            <img src="{{ asset('images/'.$blog->image) }}" alt="image-blog" class="card-img-blog mb">
-                            <div class="card-body">
-                                <div class="d-flex between align-center mb">
-                                    <div class="tag tag-small">{{ $blog->tag->name }}</div>
-                                    <p class="card-text mb-0">{{ $blog->created_at->format('d M Y') }}</p>
+                        <a href="{{ $blog->url }}">
+                            <div class="card" data-aos="fade-up" data-aos-delay="500">
+                                <img src="{{ asset('images/'.$blog->image) }}" alt="image-blog" class="card-img-blog mb">
+                                <div class="card-body">
+                                    <div class="d-flex between align-center mb">
+                                        <div class="tag tag-small">{{ $blog->tag->name }}</div>
+                                        <p class="card-text mb-0">{{ $blog->created_at->format('d M Y') }}</p>
+                                    </div>
+                                    <h3 class="card-title-large mb-2">{{ $blog->title }}</h3>
+                                    <p class="card-text">{{ $blog->description }}</p>
                                 </div>
-                                <h3 class="card-title-large mb-2">{{ $blog->title }}</h3>
-                                <p class="card-text">{{ $blog->description }}</p>
                             </div>
-                        </div>
+                        </a>
                         @endforeach
                     </div>
                 </div>
@@ -307,17 +309,19 @@
                             <div class="swiper-wrapper">
                                 @foreach ($blogs as $blog)
                                 <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
-                                    <div class="card" data-aos="fade-up" data-aos-delay="500">
-                                        <img src="{{ asset('images/'.$blog->image) }}" alt="image-blog" class="card-img-blog mb">
-                                        <div class="card-body">
-                                            <div class="d-flex between align-center mb">
-                                                <div class="tag tag-small">Web Design</div>
-                                                <p class="card-text mb-0">13 May 2024</p>
+                                    <a href="{{ $blog->url }}">
+                                        <div class="card" data-aos="fade-up" data-aos-delay="500">
+                                            <img src="{{ asset('images/'.$blog->image) }}" alt="image-blog" class="card-img-blog mb">
+                                            <div class="card-body">
+                                                <div class="d-flex between align-center mb">
+                                                    <div class="tag tag-small">Web Design</div>
+                                                    <p class="card-text mb-0">13 May 2024</p>
+                                                </div>
+                                                <h3 class="card-title-large mb-2">{{ $blog->title }}</h3>
+                                                <p class="card-text">{{ $blog->description }}</p>
                                             </div>
-                                            <h3 class="card-title-large mb-2">{{ $blog->title }}</h3>
-                                            <p class="card-text">{{ $blog->description }}</p>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                                 @endforeach
                             </div>
