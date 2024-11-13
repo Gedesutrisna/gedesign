@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('portfolios', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->string('url')->default('/');
             $table->text('description');
             $table->string('image');
             $table->foreignId('tag_id');

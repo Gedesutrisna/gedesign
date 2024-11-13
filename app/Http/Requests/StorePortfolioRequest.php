@@ -23,6 +23,7 @@ class StorePortfolioRequest extends FormRequest
     {
         return [
             'title' => 'required|string|max:255',
+            'url' => 'required|url|max:255',
             'description' => 'required|string',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'tag_id' => 'required|exists:tags,id',

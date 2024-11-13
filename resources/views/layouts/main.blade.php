@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,5 +45,26 @@
     <script>
         AOS.init();
     </script>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Gedesign",
+        "url": "https://gedesign.com",
+        "logo": "https://gedesign.com/assets/logo.webp",
+        "sameAs": [
+            "https://www.instagram.com/gedesi9n",
+            "https://www.facebook.com/gedesutrisna99"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+62-8810-3741-8040",
+            "contactType": "Customer Service",
+            "areaServed": "ID",
+            "availableLanguage": "Indonesian"
+        }
+    }
+</script>
+
 </body>
 </html>

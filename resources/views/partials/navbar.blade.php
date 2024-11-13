@@ -6,8 +6,8 @@
                 Gedesign.
             </a>
             <!-- UL Links -->
-            <ul class="nav-links" id="nav-links">
-                <li data-aos="fade-down" data-aos-delay="200"><a href="/" class="active">Home</a></li>
+            <ul class="nav-links" id="nav-links" aria-label="breadcrumb">
+                <li data-aos="fade-down" data-aos-delay="200" aria-current="page"><a href="/" class="active">Home</a></li>
                 <li data-aos="fade-down" data-aos-delay="300"><a href="/#aboutus">About</a></li>
                 <li data-aos="fade-down" data-aos-delay="400"><a href="/#faq">Faq</a></li>
                 <li data-aos="fade-down" data-aos-delay="500"><a href="/#portfolio">Portfolio</a></li>
@@ -30,3 +30,4 @@
             </div>
         </div>
     </nav> 
+    

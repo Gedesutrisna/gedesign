@@ -21,6 +21,19 @@
                     </div>
                 </div>
 
+                <!-- Url Input -->
+                <div class="row mt-4">
+                    <div class="col">
+                        <label for="url">Url</label>
+                        <input type="text" name="url" id="url" class="input mt-2" value="{{ old('url', '/') }}" placeholder="Input url..." @error('url') is-invalid @enderror>
+                        @error('url')
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
+                        @enderror
+                    </div>
+                </div>
+
                 <!-- Description Input -->
                 <div class="row mt-4">
                     <div class="col">

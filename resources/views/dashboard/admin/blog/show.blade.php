@@ -13,6 +13,14 @@
                 </div>
             </div>
 
+            <!-- Url Display -->
+            <div class="row mt-4">
+                <div class="col">
+                    <label for="url">Url</label>
+                    <input type="text" name="url" id="url" class="input mt-2" value="{{ $blog->url }}" disabled>
+                </div>
+            </div>
+
             <!-- Description Display -->
             <div class="row mt-4">
                 <div class="col">
