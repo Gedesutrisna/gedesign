@@ -17,7 +17,7 @@
     --font-size-p-small: 14px;
     --font-size-p-medium: 16px;
     --font-size-p-large: 18px;
-    --font-size-h1: 65px;
+    --font-size-h1: 64px;
     --font-size-h2: 52px;
     --font-size-h3: 24px;
     --font-size-h4: 20px;
@@ -68,13 +68,13 @@ h1.title-hero {
     margin-bottom: 1rem;
 }
 
-h1.title {
+h2.title {
     color: var(--black-color);
     font-size: var(--font-size-h2);
     font-weight: 600;
     margin-bottom: 1rem;
 }
-h1.title.white {
+h2.title.white {
     color: var(--white-color) !important;
 }
 h2.title-custom {
@@ -83,7 +83,7 @@ h2.title-custom {
     font-weight: 700;
     margin-bottom: 1rem;
 }
-h1.title.small.white {
+h2.title.small.white {
     color: var(--white-color);
     font-size: var(--font-size-h6);
     font-weight: 600;
@@ -736,7 +736,7 @@ footer .container {
         font-size: calc(var(--font-size-h1) * .8); /* Skala sekitar 90% */
     }
 
-    h1.title {
+    h2.title {
         font-size: calc(var(--font-size-h2) * 0.8); /* Skala sekitar 80% */
     }
 
@@ -847,7 +847,7 @@ footer .container {
         font-size: calc(var(--font-size-h1) * .7); /* Skala sekitar 70% */
     }
 
-    h1.title {
+    h2.title {
         font-size: calc(var(--font-size-h2) * 0.7); /* Skala sekitar 70% */
     }
 
@@ -965,7 +965,7 @@ footer .container {
         font-size: calc(var(--font-size-h1) * .6); /* Skala sekitar 60% */
     }
 
-    h1.title {
+    h2.title {
         font-size: calc(var(--font-size-h2) * 0.6); /* Skala sekitar 60% */
     }
 

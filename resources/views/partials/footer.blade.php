@@ -41,21 +41,21 @@
             <div class="col-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="200">
                 <div class="grid grid-3 mb">
                     <div class="f-box" data-aos="fade-up" data-aos-delay="400">
-                        <h1 class="title small white">Quick Link</h1>
+                        <h2 class="title small white">Quick Link</h2>
                         <a href="/" class="text white">Home</a>
                         <a href="#aboutus" class="text white">About us</a>
                         <a href="#service" class="text white">Service</a>
                         <a href="#portfolio" class="text white">Portfolio</a>
                     </div>
                     <div class="f-box" data-aos="fade-up" data-aos-delay="500">
-                        <h1 class="title small white">Our Services</h1>
+                        <h2 class="title small white">Our Services</h2>
                         <a href="#service" class="text white">Website Development</a>
                         <a href="#service" class="text white">Application Development</a>
                         <a href="#service" class="text white">UI/UX Design</a>
                         <a href="#service" class="text white">Coding and UI/UX Design Lessons</a>
                     </div>
                     <div class="f-box" data-aos="fade-up" data-aos-delay="600">
-                        <h1 class="title small white">Why Choose Us</h1>
+                        <h2 class="title small white">Why Choose Us</h2>
                         <p class="text white">Personalized Solutions</p>
                         <p class="text white">Affordable Pricing</p>
                         <p class="text white">Fast Development</p>

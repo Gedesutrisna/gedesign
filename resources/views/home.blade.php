@@ -40,9 +40,9 @@
                 </div>
                 <div class="col-7 col-sm-12" data-aos="fade-left">
                     <div class="">
-                        <h1 class="title" data-aos="fade-up" data-aos-delay="400">
+                        <h2 class="title" data-aos="fade-up" data-aos-delay="400">
                             What Drives <span class="highlight-gedesign">Gedesign</span>?
-                        </h1>
+                        </h2>
                         <p class="text" data-aos="fade-up" data-aos-delay="600">At Gedesign, we are driven by a passion for creating meaningful digital experiences. Our mission is to help businesses reach new heights online by delivering tailored web solutions. With a focus on creativity, innovation, and customer satisfaction, we ensure each project aligns perfectly with our clients’ goals.</p>
                         <div class="d-flex gap mb">
                             <a href="#portfolio" data-aos="fade-up" data-aos-delay="700">
@@ -81,9 +81,9 @@
             <div class="row row-sm gap gap-sm-n">
                 <div class="col-7 col-sm-12">
                     <div>
-                        <h1 class="title" data-aos="fade-up" data-aos-delay="400">
+                        <h2 class="title" data-aos="fade-up" data-aos-delay="400">
                             Explore <span class="highlight-gedesign">Gedesign</span> Solutions
-                        </h1>
+                        </h2>
                         <p class="text" data-aos="fade-up" data-aos-delay="600">
                             At Gedesign, we provide a range of services to elevate your digital presence and create impactful websites tailored to your needs.
                         </p>
@@ -117,7 +117,7 @@
             <div class="row mb">
                 <div class="col-7 col-sm-12" data-aos="fade-up" data-aos-delay="400">
                     <div class="">
-                        <h1 class="title mb-0 mb-sm">Discover <span class="highlight-gedesign">Gedesign</span> Work</h1>
+                        <h2 class="title mb-0 mb-sm">Discover <span class="highlight-gedesign">Gedesign</span> Work</h2>
                     </div>
                 </div>
                 <div class="col-4 col-sm-12" data-aos="fade-up" data-aos-delay="600">
@@ -177,7 +177,7 @@
             <div class="row mb">
                 <div class="col-7 col-sm-12">
                     <div>
-                        <h1 class="title mb-0 mb-sm" data-aos="fade-up" data-aos-delay="400"><span class="highlight-gedesign">Gedesign</span> Client Stories</h1>
+                        <h2 class="title mb-0 mb-sm" data-aos="fade-up" data-aos-delay="400"><span class="highlight-gedesign">Gedesign</span> Client Stories</h2>
                     </div>
                 </div>
                 <div class="col-4 col-sm-12">
@@ -222,9 +222,9 @@
             <div class="row end row-sm gap-large gap-sm-n">
                 <div class="col-7 col-sm-12">
                     <div>
-                        <h1 class="title" data-aos="fade-up" data-aos-delay="400">
+                        <h2 class="title" data-aos="fade-up" data-aos-delay="400">
                             <span class="highlight-gedesign">Gedesign</span> Support & FAQs
-                        </h1>
+                        </h2>
                         <p class="text" data-aos="fade-up" data-aos-delay="600">
                             Have questions about our services, process, or timelines? We’ve compiled a list of frequently asked questions to help you understand what working with Gedesign entails.
                         </p>
@@ -255,10 +255,10 @@
                 <div class="row center text-center">
                     <div class="col-12" data-aos="zoom-in" data-aos-delay="300">
                         <div>
-                            <h1 class="title white mb-3 mb-sm-2">
+                            <h2 class="title white mb-3 mb-sm-2">
                                 Start Building Your Custom Website with 
                                 <span class="highlight-gedesign white">Gedesign</span> Reach Out Today
-                            </h1>
+                            </h2>
                             <div class=""data-aos="fade-up" data-aos-delay="500">
                                 <a href="#portfolio">
                                     <button class="btn btn-c">Build Now</button>
@@ -274,9 +274,9 @@
         <div class="container" data-aos="fade-up" data-aos-delay="200">
             <div class="row mb">
                 <div class="col-7 col-sm-12" data-aos="fade-right" data-aos-delay="300">
-                    <h1 class="title mb-0 mb-sm">
+                    <h2 class="title mb-0 mb-sm">
                         <span class="highlight-gedesign">Gedesign</span> Insights & Inspiration
-                    </h1>
+                    </h2>
                 </div>
                 <div class="col-4 col-sm-12" data-aos="fade-left" data-aos-delay="400">
                     <p class="text mb-0">Our blog is a space for sharing practical advice, tutorials, and industry updates to help you stay ahead in web design and development.</p>
