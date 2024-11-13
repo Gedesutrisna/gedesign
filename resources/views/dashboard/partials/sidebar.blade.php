@@ -3,7 +3,7 @@
         $dashboardUrl = '/dashboard/admin';
     @endphp
     <a class="text-center" href="{{ $dashboardUrl }}">
-        <img src="/assets/logo-2.png" alt="" class="logo">
+        <img src="/assets/logo-2.webp" alt="" class="logo">
     </a>
     <hr class="my-4">
     <ul class="nav flex-column gap-3 justify-content-between h-100">
