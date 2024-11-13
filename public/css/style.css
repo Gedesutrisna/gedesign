@@ -225,7 +225,7 @@ p.text.white {
 nav {
     width: 100%;
     position: fixed;
-    top: -3;
+    top: -3px; /* Tambahkan satuan px */
     left: 0;
     z-index: 100;
 }

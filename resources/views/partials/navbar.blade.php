@@ -2,7 +2,7 @@
     <nav id="navbar" data-aos="fade-down" data-aos-duration="800">
         <div class="container">
             <a href="/" class="logo" data-aos="fade-right" data-aos-delay="200">
-                <!-- <img src="/assets/logo.webp" alt="Logo"> -->
+                {{-- <img src="/assets/logo.webp" alt="Logo"> --}}
                 Gedesign.
             </a>
             <!-- UL Links -->
