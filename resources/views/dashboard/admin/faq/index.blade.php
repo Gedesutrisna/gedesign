@@ -1,6 +1,6 @@
 @extends('dashboard.layouts.main')
 @section('container')
-<div class="row" style="{{ $faqs->count() < 4 ? 'height:100vh' : '' }}">
+<div class="row" style="{{ $faqs->count() < 4 ? 'height:100dvh' : '' }}">
     <div class="col-12">
         <div class="box">
             <div class="d-flex justify-content-end align-items-center mb-3">

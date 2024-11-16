@@ -38,7 +38,7 @@
             </div>
 
             <!-- Quick Links, Our Services, and Why Choose Us -->
-            <div class="col-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="200">
                 <div class="grid grid-3 mb">
                     <div class="f-box" data-aos="fade-up" data-aos-delay="400">
                         <h2 class="title small white">Quick Link</h2>

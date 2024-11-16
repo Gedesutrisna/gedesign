@@ -509,7 +509,7 @@ body.auth {
 section.login .container{
     /* overflow: hidden; */
     padding: 20px 80px !important;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;

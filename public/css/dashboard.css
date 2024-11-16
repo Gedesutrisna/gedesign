@@ -54,18 +54,18 @@ a.text-nav p{
     height: 24px;
 }
 /* section.home{
-    height: 100vh;
+    height: 100dvh;
     overflow: hidden;
     padding: 10px;
 } */
 section.auth{
     /* background: no-repeat right url('/assets/banner-login.svg'); */
-    height: 100vh;
+    height: 100dvh;
     position: relative;
     overflow: hidden;
 }
 section.auth .banner{
-    height: 100vh;
+    height: 100dvh;
 }
 section .bg{
     z-index: -9; 
@@ -222,7 +222,7 @@ button.crud.delete{
 }
 
 nav.sidebar{
-    height: 100vh;
+    height: 100dvh;
     border-right: 1px rgba(64, 102, 207, 0.12) solid;
     z-index: 99;
     background: white;
