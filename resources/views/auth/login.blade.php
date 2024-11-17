@@ -16,7 +16,7 @@
                 <div class="col-7 col-md-9 col-sm-12">
                     <div class="hero-left">
                         <h1 class="title-hero">
-                            Welcome Back to <span class="highlight-gedesign">Gedesign</span> Owner!
+                            Welcome Back to <span class="highlight-gedesign">Gedesign</span>, Owner!
                         </h1>
                         <p class="text">Start your journey towards becoming a professional developer. Enhance your skills, expand your knowledge, and unlock new opportunities in the ever-evolving tech industry.</p>
                         <form action="/login/admin" method="POST">
