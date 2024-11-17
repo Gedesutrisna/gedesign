@@ -15,7 +15,8 @@
     <meta property="og:image" content="/assets/logo.webp">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yourwebsite.com">
-
+    <meta name="google-site-verification" content="CFN8-gqX7ZuXcQ2nPGGm0MHz38of2J1q_1sqbiTFXXM" />
+    
     <!-- Title of the Document -->
     <title>Design Your Digital Future with Gedesign</title>
 
