@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col-12">
         <div class="box">
-            <form action="/dashboard/profile/update" method="post" enctype="multipart/form-data">
+            <form action="/dashboard/admin/profile/update" method="post" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
                 <div class="row mt-4">
